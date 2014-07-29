@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Feature List</string>
+    
+    <!-- Menu -->
+    <!-- MainActivity menu -->
+    <string name="menu_help">Help</string>
+
+</resources>

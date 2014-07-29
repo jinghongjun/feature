@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+    <!-- SAX -->
+    <item>
+        <mainTilte>SAX</mainTilte>
+        <attchaTitle>UI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.UIFeatureList</action>
+        <web>file:///android_asset/main/ui/ui.html</web>
+    </item>
+    
+    <!-- DOM -->
+    <item>
+        <mainTilte>DOM</mainTilte>
+        <attchaTitle>BI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- PULL -->
+    <item>
+        <mainTilte>PULL</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+</items>

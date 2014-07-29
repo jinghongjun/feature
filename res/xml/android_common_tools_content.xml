@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+    <!-- XmlUtils -->
+    <item>
+        <mainTilte>XmlUtils</mainTilte>
+        <attchaTitle>UI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.utils.XmlUtils</action>
+        <web>file:///android_asset/main/utils/xml_utils.html</web>
+    </item>
+    
+    <!-- HttpUtils -->
+    <item>
+        <mainTilte>HttpUtils</mainTilte>
+        <attchaTitle>UI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.UIFeatureList</action>
+        <web>file:///android_asset/main/ui/ui.html</web>
+    </item>
+    
+    <!-- DownloadManagerPro -->
+    <item>
+        <mainTilte>DownloadManagerPro</mainTilte>
+        <attchaTitle>BI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ShellUtils -->
+    <item>
+        <mainTilte>ShellUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- PackageUtils -->
+    <item>
+        <mainTilte>PackageUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/utils/xml_utils.html</web>
+    </item>
+
+    <!-- PreferencesUtils -->
+    <item>
+        <mainTilte>PreferencesUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- JSONUtils -->
+    <item>
+        <mainTilte>JSONUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- FileUtils -->
+    <item>
+        <mainTilte>FileUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ResourceUtils -->
+    <item>
+        <mainTilte>ResourceUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- StringUtils -->
+    <item>
+        <mainTilte>StringUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ParcelUtils -->
+    <item>
+        <mainTilte>ParcelUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- RandomUtils -->
+    <item>
+        <mainTilte>RandomUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ArrayUtils -->
+    <item>
+        <mainTilte>ArrayUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ImageUtils -->
+    <item>
+        <mainTilte>ImageUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ListUtils -->
+    <item>
+        <mainTilte>ListUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- MapUtils -->
+    <item>
+        <mainTilte>MapUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- ObjectUtils -->
+    <item>
+        <mainTilte>ObjectUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- SerializeUtils -->
+    <item>
+        <mainTilte>SerializeUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- SystemUtils -->
+    <item>
+        <mainTilte>SystemUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <!-- TimeUtils -->
+    <item>
+        <mainTilte>TimeUtils</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+
+    
+</items>

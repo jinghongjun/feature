@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+    <item>
+        <!-- main title -->
+        <mainTilte>UI</mainTilte>
+	    <!-- Subtitle -->
+        <attchaTitle>UI relevant examples</attchaTitle>
+        <!-- aciton -->
+        <action>com.nothingoneday.feature.base.activity.UIFeatureList</action>
+        <!-- help web -->
+        <web>file:///android_asset/main/ui/ui.html</web>
+    </item>
+    
+    <item>
+        <mainTilte>BI</mainTilte>
+        <attchaTitle>BI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+    <item>
+        <mainTilte>Android Common Tools</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.AndroidCommomTools</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
+</items>

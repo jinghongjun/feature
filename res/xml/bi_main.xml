@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>BI1</mainTilte>
+        <attchaTitle>UI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.UIFeatureList</action>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>BI2</mainTilte>
+        <attchaTitle>BI relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>
+        <web></web>
+    </item>
+</items>
