@@ -23,12 +23,15 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
 import com.nothingoneday.feature.R;
+import com.nothingoneday.feature.base.log.Logger;
 
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -103,7 +106,14 @@ public abstract class BaseActivity extends Activity implements OnItemClickListen
         Bundle data = new Bundle();
         //Get Help page position
         data.putString(EXTRA_TAG_HELP_WEB, item.mHelpWeb);
-        intent.putExtra(BUNDLE_TAG_DATA, data);
+        if (item.mBundle == null) {
+            intent.putExtra(BUNDLE_TAG_DATA, data);
+        } else {
+            if (!item.mBundle.isEmpty()) {
+                intent.putExtra(BUNDLE_TAG_DATA, item.mBundle);
+            }
+        }
+        com.nothingoneday.feature.base.log.Logger.getInstance().d(TAG, "start activity: " + intent.getComponent());
         startActivity(intent);
     }
     
@@ -124,8 +134,13 @@ public abstract class BaseActivity extends Activity implements OnItemClickListen
         mListView = (ListView)findViewById(R.id.list);
         mListView.setOnItemClickListener(this);
         mItems = createAdapter(getCreateItemRes());
-        mItemAdpater = new ItemAdapter(mItems);
-        mListView.setAdapter(mItemAdpater);
+        if (mItems != null) {
+            mItemAdpater = new ItemAdapter(mItems);
+            mListView.setAdapter(mItemAdpater);
+        } else {
+            mPromptLinearLayout.setVisibility(View.VISIBLE);
+            mPromptTextView.setText(R.string.base_activity_txv_tips);
+        }
     }
     
     /**
@@ -157,6 +172,22 @@ public abstract class BaseActivity extends Activity implements OnItemClickListen
                                 item.mAction = parser.nextText();
                             } else if (TAG_WEB.equals(parser.getName())){
                                 item.mHelpWeb = parser.nextText();
+                            } else if (TAB_BUNDLE.equals(parser.getName())) {
+                                String type = parser.getAttributeValue(null, TAB_BUNDLE_TYPE);
+                                String bundle = parser.nextText();
+                                if (!TextUtils.isEmpty(type) && !TextUtils.isEmpty(bundle)) {
+                                    if (item.mBundle == null) {
+                                        item.mBundle = new Bundle();
+                                    }
+                                    if (TAB_BUNDLE_TYPE_INT.equals(type)) {
+                                        item.mBundle.putInt(TAB_BUNDLE_TYPE_INT, Integer.parseInt(bundle));
+                                    } else if (TAB_BUNDLE_TYPE_BOOLEAN.equals(type)) {
+                                        item.mBundle.putBoolean(TAB_BUNDLE_TYPE_BOOLEAN, Boolean.parseBoolean(bundle));
+                                    } else if (TAB_BUNDLE_TYPE_LONG.equals(type)) {
+                                        item.mBundle.putLong(TAB_BUNDLE_TYPE_LONG, Long.parseLong(bundle));
+                                    }
+                                }
+                                
                             }
                             break;
                         case XmlPullParser.END_TAG:
@@ -183,6 +214,7 @@ public abstract class BaseActivity extends Activity implements OnItemClickListen
      * List item data
      */
     class Item {
+        
 
         String mMainTitle;   //item name
 
@@ -191,6 +223,8 @@ public abstract class BaseActivity extends Activity implements OnItemClickListen
         String mAction;  //Action content for display
         
         String mHelpWeb;  //Open help to explain the
+        
+        Bundle mBundle;
     }
     
     /**

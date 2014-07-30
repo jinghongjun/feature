@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android 功能列表</string>
+    
+    <!-- Menu -->
+    <!-- MainActivity menu -->
+    <string name="menu_help">帮助</string>
+    
+    
+    <!-- BaseActivity -->
+    <string name="base_activity_txv_tips">没有更新,敬请期待......</string>
+    
+    
+    <!-- UIFeatureList -->
+    <string name="ui_feature_list_title">界面功能列表</string>
+    
+    <!-- ViewFeatureList -->
+    <string name="view_feature_list_titile">视图功能列表</string>
+    
+    <!-- ViewGroupFeatureList -->
+    <string name="view_group_feature_list_title">视图组功能列表</string>
+    
+    <!-- AnimationFeatureList -->
+    <string name="animation_feature_list_title">动画功能列表</string>
+    
+    <!-- FrameAnimation -->
+    <string name="frame_animation_title">帧动画</string>
+    <string name="frame_animation_txv_simple">1.简单使用: 播放一次</string>
+    <string name="frame_animation_txv_simple_repeat_play">2.简单使用： 重复播放</string>
+    <string name="frame_animation_txv_hard">3.复杂使用: 监听动画开始和结束</string>
+    
+    <!-- TweenAnimation -->
+    <string name="tween_animation_title">Tween动画</string>
+    <!-- UnitTweenAnimation -->
+    <string name="unit_tween_animation_title">单元tween动画</string>
+    <!-- UnitTweenEffectActivity -->
+    <string name="unit_tween_effect_title">单元tween效果</string>
+    <string name="unit_tween_effect_alpha">渐变透明度动画效果</string>
+    <string name="unit_tween_effect_trans">转换位置移动动画效果</string>
+    <string name="unit_tween_effect_scale">渐变尺寸伸缩动画效果</string>
+    <string name="unit_tween_effect_rotate">画面转移旋转动画效果</string>
+    <string name="unit_tween_effect_4">透明+缩放</string>
+    <string name="unit_tween_effect_5">透明+移动</string>
+    <string name="unit_tween_effect_6">透明+Rotate</string>
+    <string name="unit_tween_effect_7">缩放+移动</string>
+    <string name="unit_tween_effect_8">缩放+旋转</string>
+    <string name="unit_tween_effect_9">移动+旋转</string>
+    <string name="unit_tween_effect_10">透明+缩放+移动</string>
+    <string name="unit_tween_effect_11">透明+缩放+旋转</string>
+    <string name="unit_tween_effect_12">透明+移动+旋转</string>
+    <string name="unit_tween_effect_13">透明+缩放+移动+旋转</string>
+    
+    <!-- CombinationTweenAnimation -->
+    <string name="combination_tween_animation_title">组合tween动画</string>
+
+</resources>

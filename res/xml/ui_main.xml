@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
     <item>
-        <mainTilte>UI1</mainTilte>
-        <attchaTitle>UI relevant examples</attchaTitle>
-        <action>com.nothingoneday.feature.base.activity.UIFeatureList</action>
+        <mainTilte>View</mainTilte>
+        <attchaTitle>View relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.view.ViewFeatureList</action>
     </item>
     
     <item>
-        <mainTilte>UI2</mainTilte>
-        <attchaTitle>BI relevant examples</attchaTitle>
-        <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>
+        <mainTilte>ViewGroup</mainTilte>
+        <attchaTitle>ViewGroup relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.viewgroup.ViewGroupFeatureList</action>
+    </item>
+    
+    <item>
+        <mainTilte>Animation</mainTilte>
+        <attchaTitle>Animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.AnimationFeatureList</action>
     </item>
 </items>

@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 简单帧动画： 播放一次 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frame_animation_panel_marginTop"
+            android:background="@color/panel_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sample_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_animation_txv_simple"
+                android:textSize="@dimen/fonts_middle" />
+
+            <ImageView
+                android:id="@+id/sample_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/frame_animation_image_marginTop" />
+        </LinearLayout>
+
+        <!-- 简单帧动画： 重复播放  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frame_animation_panel_marginTop"
+            android:background="@color/panel_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sample_repeat_play_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_animation_txv_simple_repeat_play"
+                android:textSize="@dimen/fonts_middle" />
+
+            <ImageView
+                android:id="@+id/sample_repeat_play_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/frame_animation_image_marginTop" />
+        </LinearLayout>
+        
+        <!-- 复杂帧动画： -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frame_animation_panel_marginTop"
+            android:background="@color/panel_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/hard_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frame_animation_txv_hard"
+                android:textSize="@dimen/fonts_middle" />
+
+            <ImageView
+                android:id="@+id/hard_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/frame_animation_image_marginTop" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

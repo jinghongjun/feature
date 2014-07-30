@@ -19,5 +19,10 @@ public interface BaseConstant {
     public static final String TAG_ATTCHAED = "attchaTitle";
     public static final String TAG_ACTION = "action";
     public static final String TAG_WEB = "web";
+    public static final String TAB_BUNDLE = "bundle";
+    public static final String TAB_BUNDLE_TYPE = "type";
+    public static final String TAB_BUNDLE_TYPE_INT = "int";
+    public static final String TAB_BUNDLE_TYPE_BOOLEAN = "boolean";
+    public static final String TAB_BUNDLE_TYPE_LONG = "long";
 
 }

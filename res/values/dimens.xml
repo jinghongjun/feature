@@ -1,3 +1,13 @@
 <resources>
+    
+    <dimen name="fonts_small">10sp</dimen>
+    <dimen name="fonts_middle">15sp</dimen>
+    <dimen name="fonts_big">15sp</dimen>
+    <dimen name="fonts_large">35sp</dimen>
+    
+    
+    <!-- FrameAnimation -->
+    <dimen name="frame_animation_panel_marginTop">10dip</dimen>
+    <dimen name="frame_animation_image_marginTop">10dip</dimen>
 
 </resources>

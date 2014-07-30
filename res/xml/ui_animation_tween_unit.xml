@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Alpha</mainTilte>
+        <attchaTitle>Alpha animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">0</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Rotate</mainTilte>
+        <attchaTitle>Rotate animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">1</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Scale</mainTilte>
+        <attchaTitle>Scale tween animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">2</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Translate</mainTilte>
+        <attchaTitle>Translate animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">3</bundle>
+    </item>
+</items>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Frame animaiton</mainTilte>
+        <attchaTitle>Frame animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.FrameAnimation</action>
+    </item>
+    
+    <item>
+        <mainTilte>Tween animation</mainTilte>
+        <attchaTitle>Tween animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.TweenAnimation</action>
+    </item>
+    
+    <item>
+        <mainTilte>Property animation</mainTilte>
+        <attchaTitle>Property animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.AnimationFeatureList</action>
+    </item>
+    
+</items>

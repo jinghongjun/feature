@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Alpha+Scale</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">4</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Translate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">5</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">6</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Scale+Translate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">7</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Scale+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">8</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Translate+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">9</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Scale+Translate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">10</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Scale+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">11</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Translate+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">12</bundle>
+    </item>
+    
+    <item>
+        <mainTilte>Alpha+Scale+Translate+Rotate</mainTilte>
+        <attchaTitle></attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.UnitTweenEffectActivity</action>
+        <bundle type="int">13</bundle>
+    </item>  
+
+</items>

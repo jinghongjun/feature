@@ -6,5 +6,52 @@
     <!-- Menu -->
     <!-- MainActivity menu -->
     <string name="menu_help">Help</string>
+    
+    
+    <!-- BaseActivity -->
+    <string name="base_activity_txv_tips">No update,stay tuned......</string>
+    
+    
+    <!-- UIFeatureList -->
+    <string name="ui_feature_list_title">UI feature list</string>
+    
+    <!-- ViewFeatureList -->
+    <string name="view_feature_list_titile">View feature list</string>
+    
+    <!-- ViewGroupFeatureList -->
+    <string name="view_group_feature_list_title">ViewGroup feature list</string>
+    
+    <!-- AnimationFeatureList -->
+    <string name="animation_feature_list_title">Animation feature list</string>
+    
+    <!-- FrameAnimation -->
+    <string name="frame_animation_title">Frame animation</string>
+    <string name="frame_animation_txv_simple">1.Simple: Play time</string>
+    <string name="frame_animation_txv_simple_repeat_play">2.Simple: Repeat Play</string>
+    <string name="frame_animation_txv_hard">3.Hard: listening animation start and end</string>
+    
+    <!-- TweenAnimation -->
+    <string name="tween_animation_title">Tween animation</string>
+    <!-- UnitTweenAnimation -->
+    <string name="unit_tween_animation_title">Unit tween animation</string>
+    <!-- UnitTweenEffectActivity -->
+    <string name="unit_tween_effect_title">Unit tween effect</string>
+    <string name="unit_tween_effect_alpha">Gradient transparency animation</string>
+    <string name="unit_tween_effect_trans">Conversion position animation</string>
+    <string name="unit_tween_effect_scale">Gradient size retractable animation</string>
+    <string name="unit_tween_effect_rotate">Rotary screen transition animation effects</string>
+    <string name="unit_tween_effect_4">Alpha+Scale</string>
+    <string name="unit_tween_effect_5">Alpha+Translate</string>
+    <string name="unit_tween_effect_6">Alpha+Rotate</string>
+    <string name="unit_tween_effect_7">Scale+Translate</string>
+    <string name="unit_tween_effect_8">Scale+Rotate</string>
+    <string name="unit_tween_effect_9">Translate+Rotate</string>
+    <string name="unit_tween_effect_10">Alpha+Scale+Translate</string>
+    <string name="unit_tween_effect_11">Alpha+Scale+Rotate</string>
+    <string name="unit_tween_effect_12">Alpha+Translate+Rotate</string>
+    <string name="unit_tween_effect_13">Alpha+Scale+Translate+Rotate</string>
+    <!-- CombinationTweenAnimation -->
+    <string name="combination_tween_animation_title">Combination tween animation</string>
+    
 
 </resources>
