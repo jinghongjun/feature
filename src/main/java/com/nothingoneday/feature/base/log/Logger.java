@@ -25,7 +25,11 @@ public class Logger {
     
     private static Logger mInstance;
     
+    
+    private StringBuffer mCache;
+    
     private Logger(){
+        mCache = new StringBuffer();
     }
     
     public static Logger getInstance(){
@@ -69,4 +73,17 @@ public class Logger {
     public void v(String tag, String msg){
         Log.d(tag, getCodeAddress() + "-" + msg);
     }
+    
+    public void appendCache(String str){
+        mCache.append(str);
+    }
+    
+    public void clearCache(){
+        mCache.delete(0, mCache.length());
+    }
+    
+    public String getCache(){
+        return mCache.toString();
+    }
+    
 }

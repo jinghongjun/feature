@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Activity life</mainTilte>
+        <attchaTitle>Activity life relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.ActivityLife</action>
+    </item>
+    
+    <item>
+        <mainTilte>Activity task</mainTilte>
+        <attchaTitle>Activity task relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.TweenAnimation</action>
+    </item>
+    
+    <item>
+        <mainTilte>Property animation</mainTilte>
+        <attchaTitle>Property animation relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.animation.AnimationFeatureList</action>
+    </item>
+    
+</items>

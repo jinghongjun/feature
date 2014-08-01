@@ -24,10 +24,13 @@
         
         <!-- UI -->
         <activity android:label="@string/ui_feature_list_title" android:name="com.nothingoneday.feature.base.activity.UIFeatureList"/>
+        
         <!-- View -->
         <activity android:label="@string/view_feature_list_titile" android:name="com.nothingoneday.feature.base.view.ViewFeatureList"/>
+        
         <!-- ViewGroup -->
         <activity android:label="@string/view_group_feature_list_title" android:name="com.nothingoneday.feature.base.viewgroup.ViewGroupFeatureList"/>
+        
         <!-- Animation -->
         <activity android:label="@string/animation_feature_list_title" android:name="com.nothingoneday.feature.base.animation.AnimationFeatureList"/>
         <!-- Frame animaiton -->
@@ -36,8 +39,11 @@
         <activity android:label="@string/tween_animation_title"  android:name="com.nothingoneday.feature.base.animation.TweenAnimation"/>
         <activity android:label="@string/unit_tween_animation_title" android:name="com.nothingoneday.feature.base.animation.UnitTweenAnimation"/>
         <activity android:label="@string/unit_tween_effect_title" android:name="com.nothingoneday.feature.base.animation.UnitTweenEffectActivity"/>
-        
         <activity android:label="@string/combination_tween_animation_title" android:name="com.nothingoneday.feature.base.animation.CombinationTweenAnimation"/>
+
+        <!-- Activity -->
+        <activity android:label="@string/activity_feature_list_title" android:name="com.nothingoneday.feature.base.activitys.ActivityFeatureList"/>
+        <activity android:label="@string/activity_life_title" android:name="com.nothingoneday.feature.base.activitys.ActivityLife"/>
         
         <!-- BI -->
         <activity android:name="com.nothingoneday.feature.base.activity.BIFeatureList"/>

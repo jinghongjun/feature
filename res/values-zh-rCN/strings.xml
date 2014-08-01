@@ -53,5 +53,14 @@
     
     <!-- CombinationTweenAnimation -->
     <string name="combination_tween_animation_title">组合tween动画</string>
+    
+    <!-- ActivityFeatureList-->
+    <string name="activity_feature_list_title">Activity功能列表</string>
+    
+    <!-- ActivityLife -->
+    <string name="activity_life_title">Activity生命周期</string>
+    <string name="activity_life_txv_result">运行日志</string>
+    <string name="activity_life_btn_clear">清空日志</string>
+    <string name="activity_life_btn_show">显示日志</string>
 
 </resources>

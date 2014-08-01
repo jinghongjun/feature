@@ -53,5 +53,23 @@
     <!-- CombinationTweenAnimation -->
     <string name="combination_tween_animation_title">Combination tween animation</string>
     
+    <!-- ActivityFeatureList-->
+    <string name="activity_feature_list_title">Activity feature list</string>
+    
+    <!-- ActivityLife -->
+    <string name="activity_life_title">Activity life</string>
+    <string name="activity_life_txv_result">Run log</string>
+    <string name="activity_life_btn_show">Show log</string>
+    <string name="activity_life_btn_clear">Clear log</string>
+    <string name="activity_life_log_oncreate">Call back: onCreate()\n</string>
+    <string name="activity_life_log_onrestart">Call back: onRestart()\n</string>
+    <string name="activity_life_log_onstart">Call back: onStart()\n</string>
+    <string name="activity_life_log_onresume">Call back: onResume\n</string>
+    <string name="activity_life_log_onpause">Call back: onPause\n</string>
+    <string name="activity_life_log_onstop">Call back: onStop\n</string>
+    <string name="activity_life_log_ondestroy">Call back: onDestroy()\n</string>
+    <string name="activity_life_log_onrestoreinstancestate">Call back: onRestoreInstanceState()\n</string>
+    <string name="activity_life_log_onsaveinstancestate">Call back: onSaveInstanceState()\n</string>
+    
 
 </resources>

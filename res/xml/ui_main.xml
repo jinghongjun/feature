@@ -17,4 +17,10 @@
         <attchaTitle>Animation relevant examples</attchaTitle>
         <action>com.nothingoneday.feature.base.animation.AnimationFeatureList</action>
     </item>
+    
+    <item>
+        <mainTilte>Activity</mainTilte>
+        <attchaTitle>Activity relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.ActivityFeatureList</action>
+    </item>
 </items>
