@@ -62,5 +62,38 @@
     <string name="activity_life_txv_result">运行日志</string>
     <string name="activity_life_btn_clear">清空日志</string>
     <string name="activity_life_btn_show">显示日志</string>
-
+    
+    <!-- OptimizationFeatureList -->
+    <string name="optimization_feature_list_title">Optimization Feature List</string>
+    
+    <!-- TraceViewList -->
+    <string name="trace_view_list_title">TraceView</string>
+    
+    <!-- TraceViewBeforeOptimization -->
+    <string name="trace_view_before_optimization_title">Activity优化之前</string>
+    
+    <!-- TraceViewAfterOptimization -->
+    <string name="trace_view_after_optimization_title">Activity优化之后</string>
+    
+    <!-- APIFeatureList -->
+    <string name="api_feature_list_title">API feature list</string>
+    
+    <!-- Positioning -->
+    <string name="positioning_title">定位</string>
+        <string name="positioning_gps">GPS定位</string>
+    <string name="positioning_gps_running">GPS定位中......</string>
+    <string name="positioning_google_by_network">Google网络定位</string>
+    <string name="positioning_google_by_network_running">Google网络定位中......</string>
+    <string name="positioning_baidu">百度定位</string>
+    <string name="positioning_baidu_running">百度定位中......</string>
+    
+    <!-- GraphicsFeatureList -->
+    <string name="graphics_feature_list_tilte">Graphics feature list</string>
+    
+    <!-- ImageConversion -->
+    <string name="image_conversion_title">Image conversion</string>
+    
+    <!-- CanvasList -->
+    <string name="canvas_list_tilte">Use canvas</string>
+    
 </resources>

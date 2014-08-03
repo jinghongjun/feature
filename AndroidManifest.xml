@@ -4,6 +4,29 @@
     android:versionCode="1"
     android:versionName="0.0.1-SNAPSHOT" >
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="16" />
@@ -12,49 +35,111 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
-        
+        android:theme="@style/AppTheme" >
         <activity android:name="com.nothingoneday.feature.base.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.nothingoneday.feature.base.HelpActivity"/>
-        
+        <activity android:name="com.nothingoneday.feature.base.HelpActivity" />
+
         <!-- UI -->
-        <activity android:label="@string/ui_feature_list_title" android:name="com.nothingoneday.feature.base.activity.UIFeatureList"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.activity.UIFeatureList"
+            android:label="@string/ui_feature_list_title" />
+
         <!-- View -->
-        <activity android:label="@string/view_feature_list_titile" android:name="com.nothingoneday.feature.base.view.ViewFeatureList"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.view.ViewFeatureList"
+            android:label="@string/view_feature_list_titile" />
+
         <!-- ViewGroup -->
-        <activity android:label="@string/view_group_feature_list_title" android:name="com.nothingoneday.feature.base.viewgroup.ViewGroupFeatureList"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.viewgroup.ViewGroupFeatureList"
+            android:label="@string/view_group_feature_list_title" />
+
         <!-- Animation -->
-        <activity android:label="@string/animation_feature_list_title" android:name="com.nothingoneday.feature.base.animation.AnimationFeatureList"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.AnimationFeatureList"
+            android:label="@string/animation_feature_list_title" />
         <!-- Frame animaiton -->
-        <activity android:label="@string/frame_animation_title"  android:name="com.nothingoneday.feature.base.animation.FrameAnimation"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.FrameAnimation"
+            android:label="@string/frame_animation_title" />
         <!-- Tween animation -->
-        <activity android:label="@string/tween_animation_title"  android:name="com.nothingoneday.feature.base.animation.TweenAnimation"/>
-        <activity android:label="@string/unit_tween_animation_title" android:name="com.nothingoneday.feature.base.animation.UnitTweenAnimation"/>
-        <activity android:label="@string/unit_tween_effect_title" android:name="com.nothingoneday.feature.base.animation.UnitTweenEffectActivity"/>
-        <activity android:label="@string/combination_tween_animation_title" android:name="com.nothingoneday.feature.base.animation.CombinationTweenAnimation"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.TweenAnimation"
+            android:label="@string/tween_animation_title" />
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.UnitTweenAnimation"
+            android:label="@string/unit_tween_animation_title" />
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.UnitTweenEffectActivity"
+            android:label="@string/unit_tween_effect_title" />
+        <activity
+            android:name="com.nothingoneday.feature.base.animation.CombinationTweenAnimation"
+            android:label="@string/combination_tween_animation_title" />
 
         <!-- Activity -->
-        <activity android:label="@string/activity_feature_list_title" android:name="com.nothingoneday.feature.base.activitys.ActivityFeatureList"/>
-        <activity android:label="@string/activity_life_title" android:name="com.nothingoneday.feature.base.activitys.ActivityLife"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.ActivityFeatureList"
+            android:label="@string/activity_feature_list_title" />
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.ActivityLife"
+            android:label="@string/activity_life_title" />
+
         <!-- BI -->
-        <activity android:name="com.nothingoneday.feature.base.activity.BIFeatureList"/>
-        
+        <activity android:name="com.nothingoneday.feature.base.activity.BIFeatureList" />
+
         <!-- Utils -->
-        <activity android:name="com.nothingoneday.feature.base.activity.AndroidCommomTools"/>
+        <activity android:name="com.nothingoneday.feature.base.activity.AndroidCommomTools" />
         <!-- XmlUtils -->
-        <activity android:name="com.nothingoneday.feature.base.activity.utils.XmlUtils"/>
+        <activity android:name="com.nothingoneday.feature.base.activity.utils.XmlUtils" />
+
+        <!-- OptimizationFeatureList -->
+        <activity
+            android:name="com.nothingoneday.feature.base.optimization.OptimizationFeatureList"
+            android:label="@string/optimization_feature_list_title" />
+
+        <!-- TraceViewList -->
+        <activity
+            android:name="com.nothingoneday.feature.base.optimization.TraceViewList"
+            android:label="@string/trace_view_list_title" />
+
+        <!-- TraceViewBeforeOptimaiztion -->
+        <activity
+            android:name="com.nothingoneday.feature.base.optimization.TraceViewBeforeOptimization"
+            android:label="@string/trace_view_before_optimization_title" />
+
+        <!-- TraceViewAfterOptimaiztion -->
+        <activity
+            android:name="com.nothingoneday.feature.base.optimization.TraceViewAfterOptimization"
+            android:label="@string/trace_view_after_optimization_title" />
+
+        <!-- APIFeatureLis -->
+        <activity
+            android:name="com.nothingoneday.feature.base.api.APIFeatureLis"
+            android:label="@string/api_feature_list_title" >
+        </activity>
+
+        <!-- Positioning -->
+        <activity
+            android:name="com.nothingoneday.feature.base.api.Positioning"
+            android:label="@string/positioning_title" >
+        </activity>
         
-        
-        
+        <!-- GraphicsFeatureList -->
+        <activity android:label="@string/graphics_feature_list_tilte" android:name="com.nothingoneday.feature.base.api.GraphicsFeatureList"></activity>
+    
+    	<!-- ImageConversion -->
+    	<activity android:label="@string/image_conversion_title" android:name="com.nothingoneday.feature.base.api.ImageConversion"></activity>
+    	
+    	<!-- CanvasList -->
+    	<activity android:label="@string/canvas_list_tilte" android:name="com.nothingoneday.feature.base.api.CanvasList"/>
+    	
+    	
     </application>
 
 </manifest>

@@ -71,5 +71,41 @@
     <string name="activity_life_log_onrestoreinstancestate">Call back: onRestoreInstanceState()\n</string>
     <string name="activity_life_log_onsaveinstancestate">Call back: onSaveInstanceState()\n</string>
     
+    <!-- OptimizationFeatureList -->
+    <string name="optimization_feature_list_title">Optimization Feature List</string>
+    
+    <!-- TraceViewList -->
+    <string name="trace_view_list_title">TraceView</string>
+    
+    <!-- TraceViewBeforeOptimization -->
+    <string name="trace_view_before_optimization_title">Activity before optimization</string>
+    
+    <!-- TraceViewAfterOptimization -->
+    <string name="trace_view_after_optimization_title">Activity after optimization</string>
+    
+    <!-- APIFeatureList -->
+    <string name="api_feature_list_title">API feature list</string>
+    
+    <!-- Positioning -->
+    <string name="positioning_title">Positioning</string>
+    <string name="positioning_gps">GPS position</string>
+    <string name="positioning_gps_running">GPS position......</string>
+    <string name="positioning_google_by_network">Google position by network</string>
+    <string name="positioning_google_by_network_running">Google position by network......</string>
+    <string name="positioning_baidu">Baidu position</string>
+    <string name="positioning_baidu_running">Baidu position......</string>
+    
+    <!-- GraphicsFeatureList -->
+    <string name="graphics_feature_list_tilte">Graphics feature list</string>
+    
+    <!-- ImageConversion -->
+    <string name="image_conversion_title">Image conversion</string>
+    
+    <!-- CanvasList -->
+    <string name="canvas_list_tilte">Use canvas</string>
+    
+    
+    
+    
 
 </resources>

@@ -26,4 +26,18 @@
         <web>file:///android_asset/main/bi/bi.html</web>
     </item>
     
+    <item>
+        <mainTilte>Android API</mainTilte>
+        <attchaTitle>android own custom tools</attchaTitle>
+        <action>com.nothingoneday.feature.base.api.APIFeatureLis</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+  
+    <item>
+        <mainTilte>Optimization</mainTilte>
+        <attchaTitle>Optimization application relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.optimization.OptimizationFeatureList</action>
+        <web>file:///android_asset/main/bi/bi.html</web>
+    </item>
+    
 </items>

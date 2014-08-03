@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+   <item>
+        <mainTilte>Graphics</mainTilte>
+        <attchaTitle>Graphics relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.api.GraphicsFeatureList</action>
+    </item>
+    <item>
+        <mainTilte>Positioning</mainTilte>
+        <attchaTitle>Positioning relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.api.Positioning</action>
+    </item>
+    
+
+</items>

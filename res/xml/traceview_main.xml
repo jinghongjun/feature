@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Before optimization</mainTilte>
+        <action>com.nothingoneday.feature.base.optimization.TraceViewBeforeOptimization</action>
+    </item>
+    
+    <item>
+        <mainTilte>After optimization</mainTilte>
+        <action>com.nothingoneday.feature.base.optimization.TraceViewAfterOptimization</action>
+    </item>
+    
+
+</items>
