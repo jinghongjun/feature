@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Normal</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <bundle type="int">0</bundle>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Split Action Bar</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarBottomActivity</action>
+        <bundle type="int">1</bundle>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Up Navigation</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Theme.Holo</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <bundle type="int">3</bundle>
+        <web></web>
+    </item>
+  
+        <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Theme.Holo.Light</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <bundle type="int">4</bundle>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Theme.Holo.Light.DarkActionBar</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <bundle type="int">5</bundle>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>ActionBar</mainTilte>
+        <attchaTitle>Style:Custom</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity</action>
+        <bundle type="int">6</bundle>
+        <web></web>
+    </item>
+    
+</items>

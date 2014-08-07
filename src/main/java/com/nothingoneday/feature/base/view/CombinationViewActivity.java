@@ -13,34 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nothingoneday.feature.base.activitys;
+package com.nothingoneday.feature.base.view;
 
 import com.nothingoneday.feature.R;
-import com.nothingoneday.feature.base.BaseActivity;
 
 import android.app.Activity;
-import android.view.MenuItem;
+import android.graphics.Color;
+import android.os.Bundle;
 
 
 /**
  * @author b690
  *
  */
-public class ActivityFeatureList extends BaseActivity {
+public class CombinationViewActivity extends Activity {
 
+    private static final String TAG = CombinationViewActivity.class.getSimpleName();
+    
+    CombinationLinearLayout mLinearLayout;
+    
     @Override
-    public int getMenuRes() {
-        return 0;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.combination_view);
+        
+        mLinearLayout = (CombinationLinearLayout)findViewById(R.id.combination);
+        mLinearLayout.setBackgroundColor(Color.GRAY);
+        
+        mLinearLayout.setImageForButton(R.drawable.ic_launcher);
+        mLinearLayout.setTextForTextView("组合控件");
     }
-
-    @Override
-    public boolean handleOptionsItemSelectedBySubclasses(MenuItem item) {
-        return false;
-    }
-
-    @Override
-    public int getCreateItemRes() {
-        return R.xml.ui_activity_main;
-    }
+    
+    
 
 }

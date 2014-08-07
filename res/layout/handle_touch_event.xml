@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothingoneday.feature.base.view.HandleTouchEventFatherLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#468AD7"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.nothingoneday.feature.base.view.HandelTouchEventChildLinearLayout
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:background="#E1110D"
+        android:gravity="center" >
+
+        <com.nothingoneday.feature.base.view.HandelTouchEventTextView
+            android:id="@+id/result"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:gravity="center"
+            android:text="Click ME!" />
+    </com.nothingoneday.feature.base.view.HandelTouchEventChildLinearLayout>
+
+</com.nothingoneday.feature.base.view.HandleTouchEventFatherLinearLayout>

@@ -13,34 +13,38 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nothingoneday.feature.base.activitys;
+package com.nothingoneday.feature.base.activity;
 
 import com.nothingoneday.feature.R;
-import com.nothingoneday.feature.base.BaseActivity;
+import com.nothingoneday.feature.base.log.Logger;
 
 import android.app.Activity;
-import android.view.MenuItem;
+import android.os.Bundle;
+import android.widget.TextView;
 
 
 /**
  * @author b690
  *
  */
-public class ActivityFeatureList extends BaseActivity {
+public class ViewLogActivity extends Activity {
+    
+    TextView mTextView;
 
     @Override
-    public int getMenuRes() {
-        return 0;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.view_log);
+        mTextView = (TextView)findViewById(R.id.log);
+        mTextView.setText(Logger.getInstance().getCache());
     }
 
     @Override
-    public boolean handleOptionsItemSelectedBySubclasses(MenuItem item) {
-        return false;
+    protected void onDestroy() {
+        super.onDestroy();
+        Logger.getInstance().clearCache();
     }
 
-    @Override
-    public int getCreateItemRes() {
-        return R.xml.ui_activity_main;
-    }
+    
 
 }

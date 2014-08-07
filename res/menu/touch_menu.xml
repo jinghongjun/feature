@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/touch_event_setting_menu"/>
+    
+    <item
+        android:id="@+id/log"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/touch_event_view_log_menu"/>
+
+</menu>

@@ -9,6 +9,11 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+/**
+ * 
+ * @author b690
+ *
+ */
 public class ImageConversion extends Activity {
 	
 	//Byte[]<--->Bitmap<--->Drawable

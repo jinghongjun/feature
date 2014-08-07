@@ -13,20 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nothingoneday.feature.base.activitys;
+package com.nothingoneday.feature.base.activitys.menu;
+
+import android.view.MenuItem;
 
 import com.nothingoneday.feature.R;
 import com.nothingoneday.feature.base.BaseActivity;
-
-import android.app.Activity;
-import android.view.MenuItem;
 
 
 /**
  * @author b690
  *
  */
-public class ActivityFeatureList extends BaseActivity {
+public class MenuFeatrueList extends BaseActivity {
 
     @Override
     public int getMenuRes() {
@@ -40,7 +39,7 @@ public class ActivityFeatureList extends BaseActivity {
 
     @Override
     public int getCreateItemRes() {
-        return R.xml.ui_activity_main;
+        return R.xml.menu_main;
     }
 
 }

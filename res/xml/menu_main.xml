@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Option menu</mainTilte>
+        <action>com.nothingoneday.feature.base.activitys.menu.OptionMenuActivity</action>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>Context menu</mainTilte>
+        <action>com.nothingoneday.feature.base.activitys.menu.ContextMenuActivity</action>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>Action mode menu</mainTilte>
+        <action>com.nothingoneday.feature.base.activitys.menu.ActionModeMenuActivity</action>
+        <web></web>
+    </item>
+    
+    <item>
+        <mainTilte>Popup mode menu</mainTilte>
+        <action>com.nothingoneday.feature.base.activitys.menu.PopupMenuActivity</action>
+        <web></web>
+    </item>
+    
+    
+</items>

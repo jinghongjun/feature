@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7695C3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:orientation="vertical" >
+
+        <!-- Activity Touch Setting -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Activity touch setting"
+                android:textSize="20sp" />
+
+            <!-- Activity:dispatchTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="1.dispachTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/activity_radio_group_dispatch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/activity_dispatch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/activity_dispatch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/activity_dispatch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_dispatch_event" />
+            </RadioGroup>
+
+            <!-- Activity:onTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="2.onTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/activity_radio_group_ontouch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/activity_ontouch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/activity_ontouch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/activity_ontouch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_touch_event" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ViewGroup Touch Setting -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Outer viewGroup touch setting"
+                android:textSize="20sp" />
+
+            <!-- ViewGroup: dispatchTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="1.dispachTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup1_radio_group_dispatch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_dispatch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_dispatch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_dispatch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_dispatch_event" />
+            </RadioGroup>
+
+            <!-- ViewGroup1: onInterceptTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="2.onInterceptTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup1_radio_group_intercept_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_intercept_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_intercept_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_intercept_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_intercept_event" />
+            </RadioGroup>
+
+            <!-- ViewGroup1: onTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="3.onTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup1_radio_group_ontouch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_ontouch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_ontouch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup1_ontouch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_touch_event" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ViewGroup2 Touch Setting -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Inner viewGroup touch setting"
+                android:textSize="20sp" />
+
+            <!-- Activity:dispatchTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="1.dispachTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup2_radio_group_dispatch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_dispatch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_dispatch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_dispatch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_dispatch_event" />
+            </RadioGroup>
+
+            <!-- ViewGroup1: onInterceptTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="2.onInterceptTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup2_radio_group_intercept_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_intercept_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_intercept_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_intercept_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_intercept_event" />
+            </RadioGroup>
+
+            <!-- Activity:onTouchEvent -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="3.onTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/viewgroup2_radio_group_ontouch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_ontouch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_ontouch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/viewgroup2_ontouch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_touch_event" />
+            </RadioGroup>
+        </LinearLayout>
+        
+        <!-- TextView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+            
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="View touch setting"
+                android:textSize="20sp" />
+            
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="left"
+                android:text="1.onTouchEvent()" />
+
+            <RadioGroup
+                android:id="@+id/view_radio_group_ontouch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/view_ontouch_event_true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_true" />
+
+                <RadioButton
+                    android:id="@+id/view_ontouch_event_false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/touch_event_setting_value_false" />
+
+                <RadioButton
+                    android:id="@+id/view_ontouch_event_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/touch_event_setting_value_touch_event" />
+            </RadioGroup>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

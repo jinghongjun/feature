@@ -7,15 +7,15 @@
     </item>
     
     <item>
-        <mainTilte>Activity task</mainTilte>
-        <attchaTitle>Activity task relevant examples</attchaTitle>
-        <action>com.nothingoneday.feature.base.animation.TweenAnimation</action>
+        <mainTilte>Menu List</mainTilte>
+        <attchaTitle>Menu List relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.menu.MenuFeatrueList</action>
     </item>
     
     <item>
-        <mainTilte>Property animation</mainTilte>
-        <attchaTitle>Property animation relevant examples</attchaTitle>
-        <action>com.nothingoneday.feature.base.animation.AnimationFeatureList</action>
+        <mainTilte>ActionBar List</mainTilte>
+        <attchaTitle>Menu List relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.activitys.actionbar.ActionBarFeatrueList</action>
     </item>
     
 </items>

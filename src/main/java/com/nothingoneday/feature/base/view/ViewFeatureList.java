@@ -17,6 +17,7 @@ package com.nothingoneday.feature.base.view;
 
 import android.view.MenuItem;
 
+import com.nothingoneday.feature.R;
 import com.nothingoneday.feature.base.BaseActivity;
 
 
@@ -50,7 +51,7 @@ public class ViewFeatureList extends BaseActivity {
     @Override
     public int getCreateItemRes() {
         // TODO Auto-generated method stub
-        return 0;
+        return R.xml.view_main;
     }
 
 }

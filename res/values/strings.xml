@@ -7,16 +7,40 @@
     <!-- MainActivity menu -->
     <string name="menu_help">Help</string>
     
+    <!-- ViewLogActivity -->
+    <string name="view_log_activity_log">Log</string>
     
     <!-- BaseActivity -->
     <string name="base_activity_txv_tips">No update,stay tuned......</string>
-    
     
     <!-- UIFeatureList -->
     <string name="ui_feature_list_title">UI feature list</string>
     
     <!-- ViewFeatureList -->
     <string name="view_feature_list_titile">View feature list</string>
+    
+    <!-- ViewLifeActivity -->
+    <string name="view_life_activity_title">View life</string>
+    
+    <!-- CustomViewActivity -->
+    <string name="custom_view_activity_title">Custom view</string>
+    
+    <!-- CombinationViewActivity -->
+    <string name="combination_view_activity_title">Custom combination view</string>
+    
+    <!-- HandleTouchEventActivity -->
+    <string name="handle_touch_event_activity_title">Test touch event</string>
+    <string name="handle_touch_event_activity_toast">Start to record touch event</string>
+    
+    <!-- TouchEventSetting -->
+    <string name="touch_event_setting_title">Touch event setting</string>
+    <string name="touch_event_setting_menu">Setting</string>
+    <string name="touch_event_view_log_menu">View log</string>
+    <string name="touch_event_setting_value_true">true</string>
+    <string name="touch_event_setting_value_false">false</string>
+    <string name="touch_event_setting_value_dispatch_event">super.dispatchTouchEvent(ev)</string>
+    <string name="touch_event_setting_value_intercept_event">super.onInterceptTouchEvent(ev)</string>
+    <string name="touch_event_setting_value_touch_event">super.onTouchEvent(ev)</string>
     
     <!-- ViewGroupFeatureList -->
     <string name="view_group_feature_list_title">ViewGroup feature list</string>
@@ -71,6 +95,46 @@
     <string name="activity_life_log_onrestoreinstancestate">Call back: onRestoreInstanceState()\n</string>
     <string name="activity_life_log_onsaveinstancestate">Call back: onSaveInstanceState()\n</string>
     
+    <!-- MenuFeatrueList -->
+    <string name="menu_featrue_list_title">Menu list</string>
+    <!-- OptionMenuActivity -->
+    <string name="option_menu_activity_title">Option Menu</string>
+    <string name="option_menu_activity_menu_1">Meun1</string>
+    <string name="option_menu_activity_menu_2">Menu2</string>
+    <string name="option_menu_activity_menu_2_1">Menu2_1</string>
+    <string name="option_menu_activity_menu_2_2">Menu2_2</string>
+    
+    <!-- ContextMenuActivity -->
+    <string name="context_menu_activity_title">Context menu</string>
+    <string name="context_menu_activity_menu_1">context menu1</string>
+    <string name="context_menu_activity_menu_2">context menu2</string>
+    <string name="context_menu_activity_menu_2_1">context menu2_1</string>
+    <string name="context_menu_activity_menu_2_2">context menu2_2</string>
+    
+    <!-- ActionModeMenuActivity -->
+    <string name="action_mode_menu_activity_title">Action mode menu</string>
+    <string name="action_mode_activity_menu_1">Actionmode menu1</string>
+    <string name="action_mode_activity_menu_2">Actionmode menu2</string>
+    <string name="action_mode_activity_menu_2_1">Actionmode menu2_1</string>
+    <string name="action_mode_activity_menu_2_2">Actionmode menu2_2</string>
+    
+    <!-- PopupMenuActivity -->
+    <string name="pop_up_menu_activity_title">Popup menu</string>
+        <string name="popup_activity_menu_1">Popup menu 1</string>
+    <string name="popup_activity_menu_2">Popup menu 2</string>
+    <string name="popup_activity_menu_2_1">Popup menu 2_1</string>
+    <string name="popup_activity_menu_2_2">Popup menu 2_2</string>
+    
+    <!-- ActionBarFeatrueList -->
+	<string name="action_bar_activity_title">ActionBarfeature list</string>
+	
+	<!-- ActionBarActivity -->
+	<string name="action_bar_title">ActionBar</string>
+	<string name="actionbar_1">ActionBar1</string>
+ 	<string name="actionbar_2">ActionBar2</string>
+    <string name="actionbar_2_1">ActionBar2_1</string>
+    <string name="actionbar_2_2">ActionBar2_2</string>
+ 			   
     <!-- OptimizationFeatureList -->
     <string name="optimization_feature_list_title">Optimization Feature List</string>
     
@@ -95,6 +159,18 @@
     <string name="positioning_baidu">Baidu position</string>
     <string name="positioning_baidu_running">Baidu position......</string>
     
+    <!-- AsynchronousFeatureList -->
+    <string name="asynchronous_feature_list_title">Asynchronous List</string>
+    
+    <!-- AsyncTaskActivity -->
+    <string name="async_task_activity">AsyncTask</string>
+    
+    <!-- AsyncQueryHandlerActivity -->
+    <string name="async_query_handler_activity_title">AsyncQueryHandler</string>
+    
+    <!-- IntentServiceActivity -->
+    <string name="intent_service_activity_title">IntentService</string>
+    
     <!-- GraphicsFeatureList -->
     <string name="graphics_feature_list_tilte">Graphics feature list</string>
     
@@ -104,7 +180,8 @@
     <!-- CanvasList -->
     <string name="canvas_list_tilte">Use canvas</string>
     
-    
+    <!-- AlgorithmsFeatureList -->
+    <string name="algorithms_feature_list_title">Algorithms list</string>
     
     
 

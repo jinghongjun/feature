@@ -7,6 +7,9 @@
     <!-- MainActivity menu -->
     <string name="menu_help">帮助</string>
     
+    <!-- ViewLogActivity -->
+    <string name="view_log_activity_log">日志</string>
+    
     
     <!-- BaseActivity -->
     <string name="base_activity_txv_tips">没有更新,敬请期待......</string>
@@ -17,6 +20,23 @@
     
     <!-- ViewFeatureList -->
     <string name="view_feature_list_titile">视图功能列表</string>
+    
+    <!-- ViewLifeActivity -->
+    <string name="view_life_activity_title">视图生命周期</string>
+    
+    <!-- CustomViewActivity -->
+    <string name="custom_view_activity_title">自定义视图</string>
+    
+    <!-- CombinationViewActivity -->
+    <string name="combination_view_activity_title">自定义组合视图</string>
+    
+    <!-- HandleTouchEventActivity -->
+    <string name="handle_touch_event_activity_title">handle touchevent for view</string>
+    <string name="touch_event_view_log_menu">查看日志</string>
+    
+    <!-- TouchEventSetting -->
+    <string name="touch_event_setting_title">触摸事件设置</string>
+    <string name="touch_event_setting_menu">设置</string>
     
     <!-- ViewGroupFeatureList -->
     <string name="view_group_feature_list_title">视图组功能列表</string>
@@ -63,6 +83,46 @@
     <string name="activity_life_btn_clear">清空日志</string>
     <string name="activity_life_btn_show">显示日志</string>
     
+    <!-- MenuFeatrueList -->
+    <string name="menu_featrue_list_title">菜单列表</string>
+    <!-- OptionMenuActivity -->
+    <string name="option_menu_activity_title">选项菜单</string>
+    <string name="option_menu_activity_menu_1">菜单1</string>
+    <string name="option_menu_activity_menu_2">菜单2</string>
+    <string name="option_menu_activity_menu_2_1">菜单2_1</string>
+    <string name="option_menu_activity_menu_2_2">菜单2_2</string>
+    
+    <!-- ContextMenuActivity -->
+    <string name="context_menu_activity_title">上下文菜单</string>
+    <string name="context_menu_activity_menu_1">上下文菜单1</string>
+    <string name="context_menu_activity_menu_2">上下文菜单2</string>
+    <string name="context_menu_activity_menu_2_1">上下文菜单2_1</string>
+    <string name="context_menu_activity_menu_2_2">上下文菜单2_2</string>
+    
+    <!-- ActionModeMenuActivity -->
+    <string name="action_mode_menu_activity_title">Actionmode 菜单</string>
+    <string name="action_mode_activity_menu_1">Actionmode菜单1</string>
+    <string name="action_mode_activity_menu_2">Actionmode菜单2</string>
+    <string name="action_mode_activity_menu_2_1">Actionmode菜单2_1</string>
+    <string name="action_mode_activity_menu_2_2">Actionmode菜单2_2</string>
+    
+    <!-- PopupMenuActivity -->
+    <string name="pop_up_menu_activity_title">Popup menu</string>
+    <string name="popup_activity_menu_1">Popup menu 1</string>
+    <string name="popup_activity_menu_2">Popup menu 2</string>
+    <string name="popup_activity_menu_2_1">Popup menu 2_1</string>
+    <string name="popup_activity_menu_2_2">Popup menu 2_2</string>
+    
+    <!-- ActionBarFeatrueList -->
+	<string name="action_bar_activity_title">ActionBar Featrue List</string>
+	<string name="action_bar_activity_0">Actionbar style: Normal</string>
+	<string name="action_bar_activity_1">Actionbar style: Split Action Bar</string>
+	<string name="action_bar_activity_2">Actionbar style: Up Navigation</string>
+	<string name="action_bar_activity_3">Actionbar style: Theme.Holo</string>
+	<string name="action_bar_activity_4">Actionbar style: Theme.Holo.Light</string>
+	<string name="action_bar_activity_5">Actionbar style: Theme.Holo.Light.DarkActionBar</string>
+	<string name="action_bar_activity_6">Actionbar style: Custom</string>
+    
     <!-- OptimizationFeatureList -->
     <string name="optimization_feature_list_title">Optimization Feature List</string>
     
@@ -87,13 +147,19 @@
     <string name="positioning_baidu">百度定位</string>
     <string name="positioning_baidu_running">百度定位中......</string>
     
+    <!-- AsynchronousFeatureList -->
+    <string name="asynchronous_feature_list_title">异步列表</string>
+    
     <!-- GraphicsFeatureList -->
-    <string name="graphics_feature_list_tilte">Graphics feature list</string>
+    <string name="graphics_feature_list_tilte">绘图列表</string>
     
     <!-- ImageConversion -->
-    <string name="image_conversion_title">Image conversion</string>
+    <string name="image_conversion_title">图片转换</string>
     
     <!-- CanvasList -->
-    <string name="canvas_list_tilte">Use canvas</string>
+    <string name="canvas_list_tilte">使用画布</string>
+    
+    <!-- AlgorithmsFeatureList -->
+    <string name="algorithms_feature_list_title">算法列表</string>
     
 </resources>

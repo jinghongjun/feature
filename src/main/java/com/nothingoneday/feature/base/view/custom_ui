@@ -1,0 +1,209 @@
+Android自定义控件
+
+1.Android自定UI的要求
+	一个相对于完善的自定义控件应该能在布局文件和java代码中都应该能灵活的设置属性，另外在普通的布局中和AdapterView中都应该能正确绘制
+	
+	
+2.自定义控件的步骤
+
+	(1)设计样式
+		
+		
+    |------------------------------------------|
+	|                                          |
+	|   ------------------------------------|  |
+	|   |icon                               |  |
+	|   |attribute:length width ratio       |  |
+	|   |          alpha, scale             |  |
+	|   |          top,bottom,left and right|  |
+	|   |          padding                  |  |
+	|   |                                   |  |
+	|   |                                   |  |
+	|   |———————————————————————————————————|  |                              
+	|   |First title                        |  |
+	|   |font size, color,padding           |  |
+	|   |———————————————————————————————————|  |
+	|   |Second title                       |  |
+	|   |font size, color,padding           |  |
+	|   |-----------------------------------|  | 	
+	|------------------------------------------|
+	
+	
+	
+	
+	(2)编写代码
+		(1)自定义属性：根据我们上面所做的设计，我们的自定义属性涉及到三方面，分别是图片相关的属性，一级和二级标签属性
+		
+		  1)定义res/values/attrs.xml文件
+	        attribute: reference,float,color,dimension,boolean,string,enum,integer,fraction,flag
+	
+		 		@ reference
+		  			
+		  			            <declare-styleable name = "名称">
+                   					<attr name = "background" format = "reference" />
+            					</declare-styleable>
+            					
+            					<ImageView
+                     				android:layout_width = "42dip"
+                     				android:layout_height = "42dip"
+                     				android:background = "@drawable/图片ID"/>
+
+
+
+				@ color
+				
+								<declare-styleable name = "名称">
+                   					<attr name = "textColor" format = "color" />
+            					</declare-styleable> 
+					
+					            <TextView
+                     				android:layout_width = "42dip"
+                     				android:layout_height = "42dip"
+                     				android:textColor = "#00FF00"/>
+
+				@ boolean
+				
+								<declare-styleable name = "名称">
+                					<attr name = "focusable" format = "boolean" />
+            					</declare-styleable>
+
+								<Button
+                   					android:layout_width = "42dip"
+                   					android:layout_height = "42dip"
+                   					android:focusable = "true"/>
+                   					
+                @ dimension
+
+							    <declare-styleable name = "名称">
+                   					<attr name = "layout_width" format = "dimension" />
+            					</declare-styleable>
+
+								<Button
+                   					android:layout_width = "42dip"
+                   					android:layout_height = "42dip"/>
+
+			
+			
+                @ float
+
+								<declare-styleable name = "AlphaAnimation">
+                   					<attr name = "fromAlpha" format = "float" />
+                   					<attr name = "toAlpha" format = "float" />
+            					</declare-styleable>
+
+								<alpha
+                   					android:fromAlpha = "1.0"
+                   					android:toAlpha = "0.7"/>
+                   					
+                @ integer
+                	
+                				<declare-styleable name = "AnimatedRotateDrawable">
+                   					<attr name = "visible" />
+                   					<attr name = "frameDuration" format="integer" />
+                   				 	<attr name = "framesCount" format="integer" />
+                   					<attr name = "pivotX" />
+                   					<attr name = "pivotY" />
+                   					<attr name = "drawable" />
+            					</declare-styleable>
+            					
+            					<animated-rotate
+                   					xmlns:android = "http://schemas.android.com/apk/res/android"  
+                   					android:drawable = "@drawable/图片ID"  
+                   					android:pivotX = "50%"  
+                   					android:pivotY = "50%"  
+                   					android:framesCount = "12"  
+                   					android:frameDuration = "100"/>
+
+				@ string
+				
+								<declare-styleable name = "MapView">
+                   					<attr name = "apiKey" format = "string" />
+            					</declare-styleable>
+            					
+            					<com.google.android.maps.MapView
+                    				android:layout_width = "fill_parent"
+                    				android:layout_height = "fill_parent"
+                    				android:apiKey = "0jOkQ80oD1JL9C6HAja99uGXCRiS2CGjKO_bc_g"/>
+                    				
+                @ fraction
+                
+                				<declare-styleable name="RotateDrawable">
+                   					<attr name = "visible" />
+                   					<attr name = "fromDegrees" format = "float" />
+                   					<attr name = "toDegrees" format = "float" />
+                   					<attr name = "pivotX" format = "fraction" />
+                   					<attr name = "pivotY" format = "fraction" />
+                   					<attr name = "drawable" />
+            					</declare-styleable>
+
+								<rotate
+                 					xmlns:android = "http://schemas.android.com/apk/res/android" 
+　　             					android:interpolator = "@anim/动画ID"
+                 					android:fromDegrees = "0" 
+　　             					android:toDegrees = "360"
+                 					android:pivotX = "200%"
+                 					android:pivotY = "300%" 
+　　             					android:duration = "5000"
+                 					android:repeatMode = "restart"
+                 					android:repeatCount = "infinite"/>
+                 					
+                @ enum
+                
+                				<declare-styleable name="名称">
+                   					<attr name="orientation">
+                          				<enum name="horizontal" value="0" />
+                          				<enum name="vertical" value="1" />
+                   					</attr>            
+            					</declare-styleable>
+            					
+            					
+            					<LinearLayout
+                    				xmlns:android = "http://schemas.android.com/apk/res/android"
+                    				android:orientation = "vertical"
+                    				android:layout_width = "fill_parent"
+                    				android:layout_height = "fill_parent">
+            					</LinearLayout>
+            					
+               @  flag
+               
+               					<declare-styleable name="名称">
+                    				<attr name="windowSoftInputMode">
+                            			<flag name = "stateUnspecified" value = "0" />
+                            			<flag name = "stateUnchanged" value = "1" />
+                           				<flag name = "stateHidden" value = "2" />
+                            			<flag name = "stateAlwaysHidden" value = "3" />
+                            			<flag name = "stateVisible" value = "4" />
+                            			<flag name = "stateAlwaysVisible" value = "5" />
+                            			<flag name = "adjustUnspecified" value = "0x00" />
+                            			<flag name = "adjustResize" value = "0x10" />
+                            			<flag name = "adjustPan" value = "0x20" />
+                            			<flag name = "adjustNothing" value = "0x30" />
+                     				</attr>         
+             					</declare-styleable>
+
+								<activity
+                   					android:name = ".StyleAndThemeActivity"
+                   					android:label = "@string/app_name"
+                   					android:windowSoftInputMode = "stateUnspecified | stateUnchanged　|　stateHidden">
+                   						<intent-filter>
+                          					<action android:name = "android.intent.action.MAIN" />
+                          					<category android:name = "android.intent.category.LAUNCHER" />
+                   						</intent-filter>
+             					</activity>
+             					
+               @ 混用
+               
+               					<declare-styleable name = "名称">
+                   					<attr name = "background" format = "reference|color" />
+            					</declare-styleable>
+            					
+            					 <ImageView
+                     				android:layout_width = "42dip"
+                     				android:layout_height = "42dip"
+                     				android:background = "@drawable/图片ID|#00FF00"/>
+
+				2)
+	
+	
+	
+	

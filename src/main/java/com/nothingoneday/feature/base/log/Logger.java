@@ -28,8 +28,11 @@ public class Logger {
     
     private StringBuffer mCache;
     
+    private StringBuffer mOtherCache;
+    
     private Logger(){
         mCache = new StringBuffer();
+        mOtherCache = new StringBuffer();
     }
     
     public static Logger getInstance(){
@@ -62,16 +65,32 @@ public class Logger {
         Log.d(tag, getCodeAddress() + "-" + msg);
     }
 
+    public void d(String msg){
+        Log.d(TAG, getCodeAddress() + "-" + msg);
+    }
+
     public void i(String tag, String msg){
         Log.i(tag, getCodeAddress() + "-" + msg);
+    }
+    
+    public void i(String msg){
+        Log.i(TAG, getCodeAddress() + "-" + msg);
     }
     
     public void w(String tag, String msg){
         Log.d(tag, getCodeAddress() + "-" + msg);
     }
     
+    public void w(String msg){
+        Log.d(TAG, getCodeAddress() + "-" + msg);
+    }
+    
     public void v(String tag, String msg){
         Log.d(tag, getCodeAddress() + "-" + msg);
+    }
+    
+    public void v(String msg){
+        Log.d(TAG, getCodeAddress() + "-" + msg);
     }
     
     public void appendCache(String str){
@@ -84,6 +103,18 @@ public class Logger {
     
     public String getCache(){
         return mCache.toString();
+    }
+    
+    public void appendOtherCache(String str){
+        mOtherCache.append(str);
+    }
+    
+    public void clearOtherCache(){
+        mOtherCache.delete(0, mOtherCache.length());
+    }
+    
+    public String getOtherCache(){
+        return mOtherCache.toString();
     }
     
 }

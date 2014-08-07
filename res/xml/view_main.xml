@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+   <item>
+        <mainTilte>View life</mainTilte>
+        <attchaTitle>Graphics relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.view.ViewLifeActivity</action>
+    </item>
+    <item>
+        <mainTilte>Custom view</mainTilte>
+        <attchaTitle>Custom view relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.view.CustomViewActivity</action>
+    </item>
+    <item>
+        <mainTilte>Custom combination view</mainTilte>
+        <attchaTitle>Custom combination view relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.view.CombinationViewActivity</action>
+    </item>
+    <item>
+        <mainTilte>Handle OnTouch event for view</mainTilte>
+        <attchaTitle>Handle OnTouch event for view relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.view.HandleTouchEventActivity</action>
+    </item>
+</items>

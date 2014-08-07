@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
+    
+    <item>
+        <mainTilte>Layoutopt</mainTilte>
+        <attchaTitle>TraceView relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.optimization.TraceViewList</action>
+    </item>
+    
+    <item>
+        <mainTilte>Hierarchy Viewer</mainTilte>
+        <attchaTitle>StrictMode relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.optimization.TraceViewList</action>
+    </item>
+    
     <item>
         <mainTilte>TraceView</mainTilte>
         <attchaTitle>TraceView relevant examples</attchaTitle>
         <action>com.nothingoneday.feature.base.optimization.TraceViewList</action>
     </item>
     
+    <item>
+        <mainTilte>StrictMode</mainTilte>
+        <attchaTitle>StrictMode relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.optimization.TraceViewList</action>
+    </item>
 
 </items>

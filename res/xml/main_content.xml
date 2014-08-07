@@ -32,6 +32,12 @@
         <action>com.nothingoneday.feature.base.api.APIFeatureLis</action>
         <web>file:///android_asset/main/bi/bi.html</web>
     </item>
+    
+    <item>
+        <mainTilte>Algorithms</mainTilte>
+        <attchaTitle>Java commonly used algorithm</attchaTitle>
+        <action>com.nothingoneday.feature.base.algorithms.AlgorithmsFeatureList</action>
+    </item>
   
     <item>
         <mainTilte>Optimization</mainTilte>

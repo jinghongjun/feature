@@ -17,4 +17,40 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <!-- Custom Actionbar style -->
+    <style name="Theme.Custom" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/CustomActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionOverflowButtonStyle</item>
+        <!-- Change home button background -->
+        <item name="android:selectableItemBackground">@android:drawable/btn_dropdown</item>
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.ActionBar">
+
+        <!-- Change action bar background color -->
+        <item name="android:background">@android:color/white</item>
+        <!-- Change split action bar background color -->
+        <item name="android:backgroundSplit">@android:color/white</item>
+        <item name="android:titleTextStyle">@style/CustomTitleTextStyle</item>
+    </style>
+
+    <style name="CustomTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+
+        <!-- Change action bar title color -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CustomActionButtonStyle" parent="@android:style/Widget.ActionButton">
+
+        <!-- Change action button background color -->
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+    </style>
+
+    <style name="CustomActionOverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <!-- Change overflow button background color -->
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+    </style>
+
 </resources>

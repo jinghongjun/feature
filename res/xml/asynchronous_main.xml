@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+    <!--  
+    <item>
+        <mainTilte>AsyncTask</mainTilte>
+        <action>com.nothingoneday.feature.base.api.sync.HandleActivity</action>
+    </item>
+    -->
+    
+    <item>
+        <mainTilte>AsyncTask</mainTilte>
+        <action>com.nothingoneday.feature.base.api.sync.AsyncTaskActivity</action>
+    </item>
+    
+    <item>
+        <mainTilte>AsyncQueryHandler</mainTilte>
+        <action>com.nothingoneday.feature.base.api.sync.AsyncQueryHandlerActivity</action>
+    </item>
+
+    <item>
+        <mainTilte>IntentService</mainTilte>
+        <action>com.nothingoneday.feature.base.api.sync.IntentServiceActivity</action>
+    </item>
+    
+</items>
