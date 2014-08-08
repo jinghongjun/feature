@@ -134,7 +134,16 @@
  	<string name="actionbar_2">ActionBar2</string>
     <string name="actionbar_2_1">ActionBar2_1</string>
     <string name="actionbar_2_2">ActionBar2_2</string>
- 			   
+    
+    <!-- ServiceFeatureList -->
+    <string name="service_feature_list_title">Service list</string>
+    
+    <!-- StartupServiceActivity -->
+    <string name="startup_service_activity_title">Startup service</string>
+    
+    <!-- RemoteServiceActivity -->
+    <string name="remote_service_activity_title">Remote service</string>
+	   
     <!-- OptimizationFeatureList -->
     <string name="optimization_feature_list_title">Optimization Feature List</string>
     

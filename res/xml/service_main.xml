@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    
+    <item>
+        <mainTilte>Start local service</mainTilte>
+        <attchaTitle>start and bind service</attchaTitle>
+        <action>com.nothingoneday.feature.base.service.StartupServiceActivity</action>
+    </item>
+   
+    <item>
+        <mainTilte>Remote service </mainTilte>
+        <attchaTitle>Simple data transfer</attchaTitle>
+        <action>com.nothingoneday.feature.base.service.RemoteServiceActivity</action>
+    </item>
+    
+</items>

@@ -122,9 +122,18 @@
 	<string name="action_bar_activity_4">Actionbar style: Theme.Holo.Light</string>
 	<string name="action_bar_activity_5">Actionbar style: Theme.Holo.Light.DarkActionBar</string>
 	<string name="action_bar_activity_6">Actionbar style: Custom</string>
+	
+	<!-- ServiceFeatureList -->
+    <string name="service_feature_list_title">服务列表</string>
+    
+    <!-- StartupServiceActivity -->
+    <string name="startup_service_activity_title">启动服务</string>
+    
+    <!-- RemoteServiceActivity -->
+    <string name="remote_service_activity_title">远程服务</string>
     
     <!-- OptimizationFeatureList -->
-    <string name="optimization_feature_list_title">Optimization Feature List</string>
+    <string name="optimization_feature_list_title">优化</string>
     
     <!-- TraceViewList -->
     <string name="trace_view_list_title">TraceView</string>

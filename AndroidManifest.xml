@@ -128,6 +128,25 @@
         <!-- ActionBarBottomActivity -->
         <activity android:label="@string/action_bar_title" android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarBottomActivity"  android:uiOptions="splitActionBarWhenNarrow" ></activity>
         
+        <!-- ServiceFeatureList -->
+        <activity android:label="@string/service_feature_list_title" android:name="com.nothingoneday.feature.base.service.ServiceFeatureList"></activity>
+        
+        <!-- StartupServiceActivity -->
+        <activity android:label="@string/startup_service_activity_title" android:name="com.nothingoneday.feature.base.service.StartupServiceActivity"></activity>
+	    <service android:name="com.nothingoneday.feature.base.service.ServiceForStartup">
+	        <intent-filter >
+	            <action android:name="com.nothingoneday.feature.ServiceForStartup"/>
+	        </intent-filter>
+	    </service>
+	    
+	    <!-- RemoteServiceActivity -->
+	    <activity android:label="@string/remote_service_activity_title" android:name="com.nothingoneday.feature.base.service.RemoteServiceActivity"></activity>
+	    <service android:name="com.nothingoneday.feature.base.service.RemoteCountService" android:process=":remote">
+	        <intent-filter >
+	            <action android:name="com.nothingoneday.feature_RemoteCountService"/>
+	        </intent-filter>
+	    </service>
+        
         <!-- BI -->
         <activity android:name="com.nothingoneday.feature.base.activity.BIFeatureList" />
 

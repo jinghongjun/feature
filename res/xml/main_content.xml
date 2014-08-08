@@ -13,6 +13,12 @@
     </item>
     
     <item>
+        <mainTilte>Service</mainTilte>
+        <attchaTitle>Service relevant examples</attchaTitle>
+        <action>com.nothingoneday.feature.base.service.ServiceFeatureList</action>
+    </item>
+    
+    <item>
         <mainTilte>BI</mainTilte>
         <attchaTitle>BI relevant examples</attchaTitle>
         <action>com.nothingoneday.feature.base.activity.BIFeatureList</action>

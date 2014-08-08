@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:background="#000000"
+        android:textColor="#FFFFFF" />
+
+
+    <!-- bindService and unBinderService -->
+
+    <Button
+        android:id="@+id/binder_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Binder service" />
+
+    <Button
+        android:id="@+id/unbiner_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbinder service" />
+    
+    <Button
+        android:id="@+id/getData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get data from remote service" />
+
+</LinearLayout>
