@@ -26,12 +26,12 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    
+
     <!-- 读取联系人 -->
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <!-- 授权手机能够访问网络 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -50,10 +50,11 @@
             </intent-filter>
         </activity>
         <activity android:name="com.nothingoneday.feature.base.HelpActivity" />
-        
+
         <!-- ViewLogActivity -->
-        <activity android:name="com.nothingoneday.feature.base.activity.ViewLogActivity"
-            android:label="@string/view_log_activity_log"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.activity.ViewLogActivity"
+            android:label="@string/view_log_activity_log" />
 
         <!-- UI -->
         <activity
@@ -64,22 +65,33 @@
         <activity
             android:name="com.nothingoneday.feature.base.view.ViewFeatureList"
             android:label="@string/view_feature_list_titile" />
-        
+
         <!-- ViewLifeActivity -->
-		<activity android:label="@string/view_life_activity_title" android:name="com.nothingoneday.feature.base.view.ViewLifeActivity"/>  
-		      
+        <activity
+            android:name="com.nothingoneday.feature.base.view.ViewLifeActivity"
+            android:label="@string/view_life_activity_title" />
+
         <!-- CustomViewActivity -->
-        <activity android:label="@string/custom_view_activity_title" android:name="com.nothingoneday.feature.base.view.CustomViewActivity"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.view.CustomViewActivity"
+            android:label="@string/custom_view_activity_title" />
 
         <!-- CombinationViewActivity -->
-        <activity android:label="@string/combination_view_activity_title" android:name="com.nothingoneday.feature.base.view.CombinationViewActivity"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.view.CombinationViewActivity"
+            android:label="@string/combination_view_activity_title" />
+
         <!-- HandleTouchEventActivity -->
-        <activity android:label="@string/handle_touch_event_activity_title" android:name="com.nothingoneday.feature.base.view.HandleTouchEventActivity"/>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.view.HandleTouchEventActivity"
+            android:label="@string/handle_touch_event_activity_title" />
+
         <!-- TouchEventSetting -->
-        <activity android:label="@string/touch_event_setting_title" android:name="com.nothingoneday.feature.base.view.TouchEventSetting"></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.view.TouchEventSetting"
+            android:label="@string/touch_event_setting_title" >
+        </activity>
+
         <!-- ViewGroup -->
         <activity
             android:name="com.nothingoneday.feature.base.viewgroup.ViewGroupFeatureList"
@@ -114,39 +126,76 @@
         <activity
             android:name="com.nothingoneday.feature.base.activitys.ActivityLife"
             android:label="@string/activity_life_title" />
-        <activity android:label="@string/menu_featrue_list_title" android:name="com.nothingoneday.feature.base.activitys.menu.MenuFeatrueList"></activity>
-        <activity android:label="@string/option_menu_activity_title" android:name="com.nothingoneday.feature.base.activitys.menu.OptionMenuActivity"></activity>
-        <activity android:label="@string/context_menu_activity_title" android:name="com.nothingoneday.feature.base.activitys.menu.ContextMenuActivity"></activity>
-        <activity android:label="@string/action_mode_menu_activity_title" android:name="com.nothingoneday.feature.base.activitys.menu.ActionModeMenuActivity"></activity>
-		<activity android:label="@string/pop_up_menu_activity_title"  android:name="com.nothingoneday.feature.base.activitys.menu.PopupMenuActivity"/>
-        
-		<!-- action_bar_activity_title -->
-		<activity android:label="@string/action_bar_activity_title" android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarFeatrueList"></activity>
-		
-		<!-- ActionBarActivity -->
-		<activity android:label="@string/action_bar_title" android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity"></activity>
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.menu.MenuFeatrueList"
+            android:label="@string/menu_featrue_list_title" >
+        </activity>
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.menu.OptionMenuActivity"
+            android:label="@string/option_menu_activity_title" >
+        </activity>
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.menu.ContextMenuActivity"
+            android:label="@string/context_menu_activity_title" >
+        </activity>
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.menu.ActionModeMenuActivity"
+            android:label="@string/action_mode_menu_activity_title" >
+        </activity>
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.menu.PopupMenuActivity"
+            android:label="@string/pop_up_menu_activity_title" />
+
+        <!-- action_bar_activity_title -->
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarFeatrueList"
+            android:label="@string/action_bar_activity_title" >
+        </activity>
+
+        <!-- ActionBarActivity -->
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarActivity"
+            android:label="@string/action_bar_title" >
+        </activity>
         <!-- ActionBarBottomActivity -->
-        <activity android:label="@string/action_bar_title" android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarBottomActivity"  android:uiOptions="splitActionBarWhenNarrow" ></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.activitys.actionbar.ActionBarBottomActivity"
+            android:label="@string/action_bar_title"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
         <!-- ServiceFeatureList -->
-        <activity android:label="@string/service_feature_list_title" android:name="com.nothingoneday.feature.base.service.ServiceFeatureList"></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.service.ServiceFeatureList"
+            android:label="@string/service_feature_list_title" >
+        </activity>
+
         <!-- StartupServiceActivity -->
-        <activity android:label="@string/startup_service_activity_title" android:name="com.nothingoneday.feature.base.service.StartupServiceActivity"></activity>
-	    <service android:name="com.nothingoneday.feature.base.service.ServiceForStartup">
-	        <intent-filter >
-	            <action android:name="com.nothingoneday.feature.ServiceForStartup"/>
-	        </intent-filter>
-	    </service>
-	    
-	    <!-- RemoteServiceActivity -->
-	    <activity android:label="@string/remote_service_activity_title" android:name="com.nothingoneday.feature.base.service.RemoteServiceActivity"></activity>
-	    <service android:name="com.nothingoneday.feature.base.service.RemoteCountService" android:process=":remote">
-	        <intent-filter >
-	            <action android:name="com.nothingoneday.feature_RemoteCountService"/>
-	        </intent-filter>
-	    </service>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.service.StartupServiceActivity"
+            android:label="@string/startup_service_activity_title" >
+        </activity>
+
+        <service android:name="com.nothingoneday.feature.base.service.ServiceForStartup" >
+            <intent-filter>
+                <action android:name="com.nothingoneday.feature.ServiceForStartup" />
+            </intent-filter>
+        </service>
+
+        <!-- RemoteServiceActivity -->
+        <activity
+            android:name="com.nothingoneday.feature.base.service.RemoteServiceActivity"
+            android:label="@string/remote_service_activity_title" >
+        </activity>
+
+        <service
+            android:name="com.nothingoneday.feature.base.service.RemoteCountService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.nothingoneday.feature_RemoteCountService" />
+            </intent-filter>
+        </service>
+
         <!-- BI -->
         <activity android:name="com.nothingoneday.feature.base.activity.BIFeatureList" />
 
@@ -186,37 +235,66 @@
             android:name="com.nothingoneday.feature.base.api.Positioning"
             android:label="@string/positioning_title" >
         </activity>
-        
+
         <!-- AsynchronousFeatureList -->
-        <activity android:label="@string/asynchronous_feature_list_title" android:name="com.nothingoneday.feature.base.api.AsynchronousFeatureList"></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.api.AsynchronousFeatureList"
+            android:label="@string/asynchronous_feature_list_title" >
+        </activity>
+
         <!-- AsyncTaskActivity -->
-        <activity android:label="@string/async_task_activity" android:name="com.nothingoneday.feature.base.api.sync.AsyncTaskActivity"></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.api.sync.AsyncTaskActivity"
+            android:label="@string/async_task_activity" >
+        </activity>
+
         <!-- AsyncQueryHandlerActivity -->
-        <activity android:label="@string/async_query_handler_activity_title" android:name="com.nothingoneday.feature.base.api.sync.AsyncQueryHandlerActivity"></activity>
-        
+        <activity
+            android:name="com.nothingoneday.feature.base.api.sync.AsyncQueryHandlerActivity"
+            android:label="@string/async_query_handler_activity_title" >
+        </activity>
+
         <!-- IntentServiceActivity -->
-        <activity android:label="@string/intent_service_activity_title" android:name="com.nothingoneday.feature.base.api.sync.IntentServiceActivity"></activity>
-        
-        <service android:name="com.nothingoneday.feature.base.api.sync.AsyncIntentService">
-            <intent-filter >
-                <action android:name="com.nothingoneday.feature.AsyncIntentService"/>
+        <activity
+            android:name="com.nothingoneday.feature.base.api.sync.IntentServiceActivity"
+            android:label="@string/intent_service_activity_title" >
+        </activity>
+
+        <service android:name="com.nothingoneday.feature.base.api.sync.AsyncIntentService" >
+            <intent-filter>
+                <action android:name="com.nothingoneday.feature.AsyncIntentService" />
             </intent-filter>
-        </service>
+        </service> <!-- GraphicsFeatureList -->
+        <activity
+            android:name="com.nothingoneday.feature.base.api.GraphicsFeatureList"
+            android:label="@string/graphics_feature_list_tilte" >
+        </activity>
+
+        <!-- ImageConversion -->
+        <activity
+            android:name="com.nothingoneday.feature.base.api.ImageConversion"
+            android:label="@string/image_conversion_title" >
+        </activity>
+
+        <!-- CanvasList -->
+        <activity
+            android:name="com.nothingoneday.feature.base.api.CanvasList"
+            android:label="@string/canvas_list_tilte" />
+
+        <!-- AlgorithmsFeatureList -->
+        <activity
+            android:name="com.nothingoneday.feature.base.algorithms.AlgorithmsFeatureList"
+            android:label="@string/algorithms_feature_list_title" >
+        </activity>
+
+        <!-- SortFeatureActivity -->
+        <activity
+            android:name="com.nothingoneday.feature.base.algorithms.SortFeatureActivity"
+            android:label="@string/sort_feature_activity_title" >
+        </activity>
         
-        <!-- GraphicsFeatureList -->
-        <activity android:label="@string/graphics_feature_list_tilte" android:name="com.nothingoneday.feature.base.api.GraphicsFeatureList"></activity>
-    
-    	<!-- ImageConversion -->
-    	<activity android:label="@string/image_conversion_title" android:name="com.nothingoneday.feature.base.api.ImageConversion"></activity>
-    	
-    	<!-- CanvasList -->
-    	<activity android:label="@string/canvas_list_tilte" android:name="com.nothingoneday.feature.base.api.CanvasList"/>
-    	
-    	<!-- AlgorithmsFeatureList -->
-    	<activity android:label="@string/algorithms_feature_list_title" android:name="com.nothingoneday.feature.base.algorithms.AlgorithmsFeatureList"></activity>
-    	
+        <!-- SortActivity -->
+        <activity android:label="@string/sort_activity_title" android:name="com.nothingoneday.feature.base.algorithms.SortActivity"></activity>
     </application>
 
 </manifest>

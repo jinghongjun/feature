@@ -192,6 +192,17 @@
     <!-- AlgorithmsFeatureList -->
     <string name="algorithms_feature_list_title">Algorithms list</string>
     
+    <!-- SortFeatureActivity -->
+    <string name="sort_feature_activity_title">Sort Feature</string>
     
+    <!-- SortActivity -->
+    <string name="sort_activity_title">Sort</string>
+    <string name="sort_activity_title_sort_type_bubble">Sort by bubble:</string>
+    <string name="sort_activity_title_sort_type_fast">Sort by fast:</string>
+    <string name="sort_activity_title_sort_type_pick">Sort by pick:</string>
+    <string name="sort_activity_title_sort_type_insert">Sort by insert:</string>
+    <string name="sort_activity_title_sort_type_heap">Sort by heap:</string>
+    <string name="sort_activity_title_sort_type_shell">Sort by shell:</string>
+    <string name="sort_activity_title_sort_type_merge">Sort by merge:</string>
 
 </resources>

@@ -171,4 +171,16 @@
     <!-- AlgorithmsFeatureList -->
     <string name="algorithms_feature_list_title">算法列表</string>
     
+    <!-- SortFeatureActivity -->
+    <string name="sort_feature_activity_title">排序算法</string>
+    
+    <!-- SortActivity -->
+    <string name="sort_activity_title">排序</string>
+    <string name="sort_activity_title_sort_type_bubble">冒泡排序：</string>
+    <string name="sort_activity_title_sort_type_fast">快速排序：</string>
+    <string name="sort_activity_title_sort_type_pick">选择排序：</string>
+    <string name="sort_activity_title_sort_type_insert">插入排序：</string>
+    <string name="sort_activity_title_sort_type_heap">堆排序：</string>
+    <string name="sort_activity_title_sort_type_shell">Shell排序：</string>
+    <string name="sort_activity_title_sort_type_merge">多路合并排序：</string>
 </resources>

@@ -25,21 +25,24 @@ import com.nothingoneday.feature.base.BaseActivity;
  * @author b690
  *
  */
-public class AlgorithmsFeatureList extends BaseActivity {
+public class SortFeatureActivity extends BaseActivity {
 
     @Override
     public int getMenuRes() {
+        // TODO Auto-generated method stub
         return 0;
     }
 
     @Override
     public boolean handleOptionsItemSelectedBySubclasses(MenuItem item) {
+        // TODO Auto-generated method stub
         return false;
     }
 
     @Override
     public int getCreateItemRes() {
-        return R.xml.algorithms_main;
+        // TODO Auto-generated method stub
+        return R.xml.algorithms_sort_main;
     }
 
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <mainTilte>Bubble sort</mainTilte>
+        <bundle type="int">0</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+        <item>
+        <mainTilte>Fast sort</mainTilte>
+        <bundle type="int">1</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+        <item>
+        <mainTilte>Pick sort</mainTilte>
+        <bundle type="int">2</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+    <item>
+        <mainTilte>Insert sort</mainTilte>
+        <bundle type="int">3</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+    <item>
+        <mainTilte>Heap sort</mainTilte>
+        <bundle type="int">4</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+    <item>
+        <mainTilte>Shell sort</mainTilte>
+        <bundle type="int">5</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+    <item>
+        <mainTilte>Merge sort</mainTilte>
+        <bundle type="int">6</bundle>
+        <action>com.nothingoneday.feature.base.algorithms.SortActivity</action>
+    </item>
+</items>
